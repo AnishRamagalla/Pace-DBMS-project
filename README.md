@@ -25,6 +25,7 @@ To run this project, make sure to have the following installed on your system:
    CREATE DATABASE cs623_project;
 
 2. Create tables such as Product, Depot and Stock.
+
    Product:
    
    CREATE TABLE Product (prodid CHAR(10), pname  VARCHAR(30), price DECIMAL);
