@@ -3,7 +3,7 @@ import psycopg2
 def get_connection():
     """
     Establish a connection to the PostgreSQL database.
-    Update the credentials based on your PostgreSQL setup.
+    Update the credentials based on PostgreSQL setup.
     """
     try:
         conn = psycopg2.connect(
