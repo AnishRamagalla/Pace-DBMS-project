@@ -8,8 +8,8 @@ def get_connection():
     try:
         conn = psycopg2.connect(
             dbname="cs623_project",         # database name
-            user="postgres",           # PostgreSQL username
-            password="your password",  # PostgreSQL password
+            user="username",           # PostgreSQL username
+            password="password",  # PostgreSQL password
             host="localhost",          # Host name
             port="5432"                # Port (default PostgreSQL port is 5432)
         )
